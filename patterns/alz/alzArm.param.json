@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "alz-demo1"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "alz-demo1-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "alz-demo1-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "alz-demo1-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "alz-demo1-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "alz-demo1-landing-zones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -72,13 +72,13 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "48e279cb-cf83-463f-b384-5eccf22eaab3"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "swedencentral"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,9 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": [
+        "dmitriy.nekrasov@microsoft.com"
+      ]
     },
     "ALZLogicappResourceId": {
       "value": ""
